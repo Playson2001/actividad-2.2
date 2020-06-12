@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>  
 <head>	
-    <meta charset="UTF-8">
     <title>Operacines</title>
 </head>
 <body>
+<?php>
 <form method="POST" action="operaciones.php">
     <label>Ingrese el primer numero</label><br>
     <input type="number" name="numero1"><br>
@@ -19,5 +19,6 @@
 </select>   
     <button type="submit">Ver resultado</button>	
 </form>
+?>
 </body>
 </html>
